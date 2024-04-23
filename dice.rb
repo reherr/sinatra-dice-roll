@@ -42,10 +42,9 @@ end
 get("/dice/1/20") do
     die = rand(1..20)
 
-      outcome = "You rolled a #{die}."
+      @outcome = "You rolled a #{die}."
 
-      "<h1>1d20</h1>
-      <p>#{outcome}</p>"
+      erb(:one_twenty)
 
 end
 
