@@ -43,7 +43,7 @@ get("/dice/2/10") do
 end
 
 get("/dice/1/20") do
-    @roll = []
+    @rolls = []
 
     1.times do 
       die = rand(1..20)
@@ -56,7 +56,7 @@ get("/dice/1/20") do
 end
 
 get("/dice/5/4") do
-  @roll = []
+  @rolls = []
 
   5.times do 
     die = rand(1..4)
