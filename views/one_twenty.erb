@@ -16,7 +16,13 @@
 <% else %>
   <p><%= @outcome %></p>
 <% end %>
-
-<p><%= @outcome %></p>
+<ul>
+  <% @rolls.each do |a_roll| %>
+    <li>
+      <%= a_roll %>
+    </li>
+  <% end %>
+</ul>
+<p><%= @rolls %></p>
 </body>
 </html>
