@@ -51,7 +51,7 @@ end
 get("/dice/5/4") do
   first_die = rand(1..4)
     second_die = rand(1..4)
-  third die = rand(1..4)
+  third_die = rand(1..4)
     fourth_die = rand(1..4)
   fifth_die = rand(1..4)
 
