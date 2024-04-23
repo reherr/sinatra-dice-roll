@@ -67,7 +67,7 @@ get("/dice/5/4") do
   erb(:five_four)
 end
 
-get("dice/100/6") do
+get("/dice/100/6") do
   @rolls = []
 
   100.times do 
